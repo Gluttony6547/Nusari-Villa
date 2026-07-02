@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nusari Villa Ubud adalah private pool villa 2 kamar tidur di Gianyar, Ubud. Retreat tenang dengan pemandangan tropis, ruang modern, dan akses mudah ke pusat budaya Bali.">
+  <meta name="description" content="Nusari Villa Ubud is a two-bedroom private pool villa in Gianyar, Ubud. A quiet retreat with tropical views, modern spaces, and easy access to Bali's cultural heart.">
   <meta property="og:title" content="Nusari Villa Ubud | Private Pool Villa in Nature">
-  <meta property="og:description" content="Villa 2 kamar tidur di Gianyar, Ubud dengan private pool, living terbuka, dan suasana alam tropis.">
+  <meta property="og:description" content="A two-bedroom villa in Gianyar, Ubud with a private pool, open living space, and tropical surroundings.">
   <meta property="og:image" content="assets/images/BIP-MJ-1035.webp">
   <meta property="og:type" content="website">
   <title>Nusari Villa Ubud | Private Pool Villa in Nature</title>
@@ -17,47 +17,53 @@
 </head>
 <body>
   <header class="header" id="header">
-    <nav class="nav container" aria-label="Navigasi utama">
+    <nav class="nav container" aria-label="Main navigation" data-i18n-attr="aria-label:aria.nav">
       <a href="#hero" class="logo" aria-label="Nusari Villa homepage">
         <span>Nusari Villa</span>
         <small>Jl. Garuda, Mas</small>
       </a>
-      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
-        <span></span><span></span>
-      </button>
       <ul class="nav-links">
-        <li><a href="#tentang">Tentang</a></li>
-        <li><a href="#villa">Villa</a></li>
-        <li><a href="#fasilitas">Fasilitas</a></li>
-        <li><a href="#galeri">Galeri</a></li>
-        <li><a href="#lokasi">Lokasi</a></li>
-        <li><a href="#kontak" class="nav-cta">Reservasi</a></li>
+        <li><a href="#tentang" data-i18n="nav.about">About</a></li>
+        <li><a href="#villa" data-i18n="nav.villa">Villa</a></li>
+        <li><a href="#fasilitas" data-i18n="nav.amenities">Amenities</a></li>
+        <li><a href="#galeri" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="#lokasi" data-i18n="nav.location">Location</a></li>
+        <li><a href="#kontak" class="nav-cta" data-i18n="nav.reservation">Reservation</a></li>
       </ul>
+      <div class="nav-controls">
+        <div class="language-switch" aria-label="Language selector" data-i18n-attr="aria-label:aria.language">
+          <button type="button" class="lang-option active" data-lang-option="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-option" data-lang-option="id" aria-pressed="false">ID</button>
+        </div>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-i18n-attr="aria-label:aria.openMenu">
+          <span></span><span></span>
+        </button>
+      </div>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="hero">
       <picture class="hero-bg">
-        <img src="assets/images/BIP-MJ-1035.webp" alt="Kolam renang privat Nusari Villa dengan taman tropis" width="1920" height="1440" fetchpriority="high">
+        <img src="assets/images/BIP-MJ-1035.webp" alt="Nusari Villa private pool with tropical garden" data-i18n-attr="alt:alt.hero" width="1920" height="1440" fetchpriority="high">
       </picture>
       <div class="hero-panel container">
         <div class="hero-content">
-          <p class="hero-label fade-up">Private Pool Villa in Ubud</p>
+          <p class="hero-label fade-up" data-i18n="hero.label">Private Pool Villa in Ubud</p>
           <h1 class="hero-title fade-up">Nusari Villa</h1>
-          <p class="hero-sub fade-up">Retreat 2 kamar tidur di Gianyar, Ubud untuk tamu yang mencari suasana alam, ruang modern, dan ketenangan Bali yang terasa privat.</p>
+          <p class="hero-sub fade-up" data-i18n="hero.subtitle">A two-bedroom retreat in Gianyar, Ubud for guests seeking nature, modern comfort, and the privacy of a calm Bali stay.</p>
           <div class="hero-actions fade-up">
-            <a href="https://wa.me/6287780867880?text=Halo%2C%20saya%20ingin%20cek%20ketersediaan%20Nusari%20Villa%20Ubud" target="_blank" rel="noopener" class="btn btn-primary">Pesan via WhatsApp</a>
-            <a href="#galeri" class="btn btn-ghost">Lihat Galeri</a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-primary js-whatsapp" data-i18n="cta.whatsapp">Reserve via WhatsApp</a>
+            <a href="#galeri" class="btn btn-ghost" data-i18n="cta.gallery">View Gallery</a>
           </div>
         </div>
-        <div class="hero-facts fade-up" aria-label="Highlight villa">
-          <div><strong>2</strong><span>Kamar Tidur</span></div>
-          <div><strong>Private</strong><span>Pool</span></div>
+        <div class="hero-facts fade-up" aria-label="Villa highlights" data-i18n-attr="aria-label:aria.highlights">
+          <div><strong>2</strong><span data-i18n="facts.bedrooms">Bedrooms</span></div>
+          <div><strong>Private</strong><span data-i18n="facts.pool">Pool</span></div>
           <div><strong>Gianyar, Ubud</strong><span>Bali</span></div>
         </div>
       </div>
-      <a class="hero-scroll" href="#tentang" aria-label="Scroll ke tentang villa">
+      <a class="hero-scroll" href="#tentang" aria-label="Scroll to about villa" data-i18n-attr="aria-label:aria.scrollAbout">
         <span>Scroll</span>
         <i></i>
       </a>
@@ -66,17 +72,17 @@
     <section class="intro section" id="tentang">
       <div class="container intro-grid">
         <div class="intro-text reveal">
-          <span class="section-label">Tentang Villa</span>
-          <h2>Tempat beristirahat yang terasa dekat dengan alam.</h2>
-          <p>Nusari Villa memadukan arsitektur modern minimalis dengan lanskap tropis khas Ubud. Dari pool deck, balkon, hingga living room, suasananya dibuat tenang dan lapang untuk staycation, perjalanan keluarga kecil, atau work-from-villa yang lebih pelan.</p>
-          <p>Lokasinya berada di Mas, desa budaya yang tetap dekat dengan atraksi Ubud, namun cukup tersembunyi untuk memberi rasa privat begitu Anda masuk ke area villa.</p>
+          <span class="section-label" data-i18n="intro.label">About the Villa</span>
+          <h2 data-i18n="intro.title">A place to rest close to nature.</h2>
+          <p data-i18n="intro.p1">Nusari Villa blends modern minimalist architecture with Ubud's tropical landscape. From the pool deck, balcony, and living room, every space is made to feel calm and open for a staycation, a small family trip, or a slower work-from-villa rhythm.</p>
+          <p data-i18n="intro.p2">Located in Mas, a cultural village near Ubud's attractions, the villa remains tucked away enough to feel private from the moment you arrive.</p>
         </div>
-        <div class="intro-images reveal" aria-label="Suasana villa">
+        <div class="intro-images reveal" aria-label="Villa atmosphere" data-i18n-attr="aria-label:aria.atmosphere">
           <figure class="intro-img intro-img-main">
-            <img src="assets/images/BIP-MJ-0821.webp" alt="Tangga interior Nusari Villa dengan jendela lengkung" width="1500" height="1125" loading="lazy">
+            <img src="assets/images/BIP-MJ-0821.webp" alt="Nusari Villa staircase with arched window" data-i18n-attr="alt:alt.staircase" width="1500" height="1125" loading="lazy">
           </figure>
           <figure class="intro-img intro-img-accent">
-            <img src="assets/images/BIP-MJ-0997.webp" alt="Pemandangan sawah dan langit dari balkon villa" width="1125" height="1500" loading="lazy">
+            <img src="assets/images/BIP-MJ-0997.webp" alt="Rice field and sky view from the villa balcony" data-i18n-attr="alt:alt.balconyView" width="1125" height="1500" loading="lazy">
           </figure>
         </div>
       </div>
@@ -86,18 +92,18 @@
       <div class="container story-grid">
         <article class="story-card reveal">
           <span>01</span>
-          <h3>Bangun dengan hijau tropis</h3>
-          <p>Jendela besar dan balkon mengarahkan pandangan ke pepohonan, taman, dan ritme desa Mas yang tenang.</p>
+          <h3 data-i18n="story.1.title">Wake up to tropical green</h3>
+          <p data-i18n="story.1.text">Large windows and balconies frame trees, gardens, and the quiet rhythm of Mas village.</p>
         </article>
         <article class="story-card reveal">
           <span>02</span>
-          <h3>Ruang privat untuk melambat</h3>
-          <p>Kolam renang, sun deck, dan living terbuka menjadi pusat pengalaman tanpa harus keluar dari villa.</p>
+          <h3 data-i18n="story.2.title">Private space to slow down</h3>
+          <p data-i18n="story.2.text">The pool, sun deck, and open living area become the center of the stay without needing to leave the villa.</p>
         </article>
         <article class="story-card reveal">
           <span>03</span>
-          <h3>Dekat dengan Ubud</h3>
-          <p>Akses praktis menuju area budaya, restoran, dan destinasi keluarga, sambil tetap pulang ke suasana yang sunyi.</p>
+          <h3 data-i18n="story.3.title">Close to Ubud</h3>
+          <p data-i18n="story.3.text">Easy access to cultural areas, restaurants, and family destinations, while returning to a quieter setting.</p>
         </article>
       </div>
     </section>
@@ -105,29 +111,29 @@
     <section class="experience section section-dark">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-label">Pengalaman</span>
-          <h2>Dirancang untuk menikmati waktu.</h2>
+          <span class="section-label" data-i18n="experience.label">Experience</span>
+          <h2 data-i18n="experience.title">Designed to enjoy your time.</h2>
         </div>
         <div class="experience-grid">
           <article class="experience-card reveal">
-            <img src="assets/images/BIP-MJ-1023.webp" alt="Kolam renang privat dengan sun lounger" width="1500" height="1125" loading="lazy">
+            <img src="assets/images/BIP-MJ-1023.webp" alt="Private pool with sun loungers" data-i18n-attr="alt:alt.pool" width="1500" height="1125" loading="lazy">
             <div>
               <h3>Private Pool</h3>
-              <p>Pool deck yang intim untuk berenang pagi, membaca, atau menikmati sore dengan suasana taman tropis.</p>
+              <p data-i18n="experience.pool">An intimate pool deck for morning swims, reading, or slow afternoons in the tropical garden.</p>
             </div>
           </article>
           <article class="experience-card reveal">
-            <img src="assets/images/BIP-MJ-1015.webp" alt="Living room dan dining area terbuka Nusari Villa" width="1500" height="1125" loading="lazy">
+            <img src="assets/images/BIP-MJ-1015.webp" alt="Nusari Villa open living room and dining area" data-i18n-attr="alt:alt.living" width="1500" height="1125" loading="lazy">
             <div>
               <h3>Indoor-Outdoor Living</h3>
-              <p>Living, dining, dan dapur menyatu dengan bukaan besar agar cahaya dan udara terasa natural.</p>
+              <p data-i18n="experience.living">Living, dining, and kitchen spaces connect through wide openings so light and air feel natural.</p>
             </div>
           </article>
           <article class="experience-card reveal">
-            <img src="assets/images/BIP-MJ-0940.webp" alt="Balkon kamar dengan pemandangan hutan" width="1125" height="1500" loading="lazy">
+            <img src="assets/images/BIP-MJ-0940.webp" alt="Bedroom balcony with forest view" data-i18n-attr="alt:alt.forestBalcony" width="1125" height="1500" loading="lazy">
             <div>
               <h3>Forest Balcony</h3>
-              <p>Area duduk di kamar memberi momen tenang sebelum memulai hari di Ubud.</p>
+              <p data-i18n="experience.balcony">A quiet sitting area by the bedroom gives you a gentle pause before starting the day in Ubud.</p>
             </div>
           </article>
         </div>
@@ -138,23 +144,23 @@
       <div class="container villa-grid">
         <div class="villa-visual reveal">
           <figure class="villa-img-large">
-            <img src="assets/images/BIP-MJ-0918.webp" alt="Kamar tidur utama Nusari Villa" width="1500" height="1125" loading="lazy">
+            <img src="assets/images/BIP-MJ-0918.webp" alt="Nusari Villa master bedroom" data-i18n-attr="alt:alt.masterBedroom" width="1500" height="1125" loading="lazy">
           </figure>
           <figure class="villa-img-small">
-            <img src="assets/images/BIP-MJ-0967.webp" alt="Kamar tidur twin bed Nusari Villa" width="1500" height="1125" loading="lazy">
+            <img src="assets/images/BIP-MJ-0967.webp" alt="Nusari Villa twin bedroom" data-i18n-attr="alt:alt.twinBedroom" width="1500" height="1125" loading="lazy">
           </figure>
         </div>
         <div class="villa-text reveal">
-          <span class="section-label">Akomodasi</span>
+          <span class="section-label" data-i18n="villa.label">Accommodation</span>
           <h2>Two Bedroom Pool Villa</h2>
-          <p>Dua kamar tidur ber-AC, living room, dining area, dapur lengkap, dan area outdoor privat. Komposisinya nyaman untuk keluarga kecil, pasangan, atau tamu yang ingin tinggal lebih lama di Ubud.</p>
+          <p data-i18n="villa.description">Two air-conditioned bedrooms, a living room, dining area, fully equipped kitchen, and private outdoor space. The layout suits small families, couples, or guests planning a longer Ubud stay.</p>
           <ul class="villa-features">
-            <li>Master bedroom dengan king bed</li>
-            <li>Kamar kedua dengan twin bed</li>
-            <li>Dapur lengkap dan island bar</li>
-            <li>Smart TV, Wi-Fi, dan parkir gratis</li>
-            <li>Balkon dan taman tropis</li>
-            <li>Housekeeping serta laundry service</li>
+            <li data-i18n="villa.feature1">Master bedroom with king bed</li>
+            <li data-i18n="villa.feature2">Second bedroom with twin beds</li>
+            <li data-i18n="villa.feature3">Fully equipped kitchen and island bar</li>
+            <li data-i18n="villa.feature4">Smart TV, Wi-Fi, and free parking</li>
+            <li data-i18n="villa.feature5">Balcony and tropical garden</li>
+            <li data-i18n="villa.feature6">Housekeeping and laundry service</li>
           </ul>
         </div>
       </div>
@@ -163,10 +169,10 @@
     <section class="amenities section section-cream" id="fasilitas">
       <div class="container amenities-wrap">
         <div class="section-header reveal">
-          <span class="section-label">Fasilitas</span>
-          <h2>Esensial, rapi, dan siap ditempati.</h2>
+          <span class="section-label" data-i18n="amenities.label">Amenities</span>
+          <h2 data-i18n="amenities.title">Essential, tidy, and ready to stay.</h2>
         </div>
-        <div class="amenities-grid reveal" aria-label="Daftar fasilitas Nusari Villa">
+        <div class="amenities-grid reveal" aria-label="Nusari Villa amenities" data-i18n-attr="aria-label:aria.amenities">
           <div class="amenity"><span aria-hidden="true">Pool</span><strong>Private Pool</strong></div>
           <div class="amenity"><span aria-hidden="true">Cook</span><strong>Full Kitchen</strong></div>
           <div class="amenity"><span aria-hidden="true">Cool</span><strong>Air Conditioning</strong></div>
@@ -183,10 +189,10 @@
       <div class="container">
         <div class="gallery-head reveal">
           <div>
-            <span class="section-label">Galeri</span>
-            <h2>Sudut-sudut Nusari Villa</h2>
+            <span class="section-label" data-i18n="gallery.label">Gallery</span>
+            <h2 data-i18n="gallery.title">Corners of Nusari Villa</h2>
           </div>
-          <p>Foto asli villa: exterior, kamar, living area, pool deck, dan pemandangan sekitar.</p>
+          <p data-i18n="gallery.description">Real villa photos: exterior, bedrooms, living area, pool deck, and the surrounding landscape.</p>
         </div>
         <div class="gallery-grid reveal" id="gallery-grid"></div>
       </div>
@@ -195,19 +201,20 @@
     <section class="location section section-dark" id="lokasi">
       <div class="container location-grid">
         <div class="location-text reveal">
-          <span class="section-label">Lokasi</span>
+          <span class="section-label" data-i18n="location.label">Location</span>
           <h2>Gianyar, Ubud</h2>
-          <p>Berada di area Mas, Gianyar, Nusari Villa cocok untuk tamu yang ingin dekat dengan Ubud, namun tetap kembali ke suasana yang lebih privat dan natural.</p>
+          <p data-i18n="location.description">Located in the Mas area of Gianyar, Nusari Villa is ideal for guests who want to stay close to Ubud while returning to a more private, natural setting.</p>
           <address>
             <strong>Nusari Villa</strong><br>
             Jl. Garuda, Mas<br>
             Gianyar, Bali, Indonesia
           </address>
-          <a href="https://www.google.com/maps?ftid=0x2dd23d16de8dbc49:0x95175e7c78b20be0" target="_blank" rel="noopener" class="btn btn-ghost">Buka Google Maps</a>
+          <a href="https://www.google.com/maps?ftid=0x2dd23d16de8dbc49:0x95175e7c78b20be0" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="location.maps">Open Google Maps</a>
         </div>
         <div class="location-map reveal">
           <iframe
-            title="Lokasi Nusari Villa di Google Maps"
+            title="Nusari Villa location on Google Maps"
+            data-i18n-attr="title:aria.map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.0!2d115.28!3d-8.54!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23d16de8dbc49%3A0x95175e7c78b20be0!2sNusari%20Villa!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -220,12 +227,12 @@
     <section class="contact section" id="kontak">
       <div class="container contact-panel reveal">
         <div class="contact-text">
-          <span class="section-label">Reservasi</span>
-          <h2>Siap menginap di Nusari Villa?</h2>
-          <p>Kirim tanggal menginap dan jumlah tamu. Tim kami akan membantu cek ketersediaan, harga, dan kebutuhan tambahan Anda.</p>
+          <span class="section-label" data-i18n="contact.label">Reservation</span>
+          <h2 data-i18n="contact.title">Ready to stay at Nusari Villa?</h2>
+          <p data-i18n="contact.description">Send your preferred dates and number of guests. Our team will help check availability, pricing, and any additional needs.</p>
         </div>
         <div class="contact-actions">
-          <a href="https://wa.me/6287780867880?text=Halo%2C%20saya%20ingin%20cek%20ketersediaan%20Nusari%20Villa%20Ubud" target="_blank" rel="noopener" class="contact-card primary-contact">
+          <a href="#" target="_blank" rel="noopener" class="contact-card primary-contact js-whatsapp">
             <span>WhatsApp</span>
             <strong>+62 877-8086-7880</strong>
           </a>
@@ -234,7 +241,7 @@
             <strong>info@harmonybalihospitality.com</strong>
           </a>
           <a href="https://harmonybalihospitality.com/villa-nusari/" target="_blank" rel="noopener" class="contact-card">
-            <span>Managed by</span>
+            <span data-i18n="contact.managedBy">Managed by</span>
             <strong>Harmony Bali Hospitality</strong>
           </a>
         </div>
@@ -249,12 +256,12 @@
     </div>
   </footer>
 
-  <a class="floating-cta" href="https://wa.me/6287780867880?text=Halo%2C%20saya%20ingin%20cek%20ketersediaan%20Nusari%20Villa%20Ubud" target="_blank" rel="noopener">Reservasi</a>
+  <a class="floating-cta js-whatsapp" href="#" target="_blank" rel="noopener" data-i18n="nav.reservation">Reservation</a>
 
-  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Galeri foto Nusari Villa">
-    <button class="lightbox-close" aria-label="Tutup galeri">&times;</button>
-    <button class="lightbox-prev" aria-label="Foto sebelumnya">&#8249;</button>
-    <button class="lightbox-next" aria-label="Foto berikutnya">&#8250;</button>
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Nusari Villa photo gallery" data-i18n-attr="aria-label:aria.galleryDialog">
+    <button class="lightbox-close" aria-label="Close gallery" data-i18n-attr="aria-label:aria.closeGallery">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous photo" data-i18n-attr="aria-label:aria.prevPhoto">&#8249;</button>
+    <button class="lightbox-next" aria-label="Next photo" data-i18n-attr="aria-label:aria.nextPhoto">&#8250;</button>
     <img src="" alt="" id="lightbox-img">
   </div>
 

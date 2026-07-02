@@ -177,6 +177,12 @@ p {
   gap: 24px;
 }
 
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .logo {
   display: grid;
   gap: 1px;
@@ -222,6 +228,51 @@ p {
   border: 1px solid currentColor;
   border-radius: 999px;
   opacity: 1 !important;
+}
+
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px;
+  border: 1px solid rgba(255, 253, 248, 0.56);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.header.scrolled .language-switch,
+.header.menu-open .language-switch {
+  border-color: rgba(38, 56, 41, 0.22);
+  background: rgba(38, 56, 41, 0.06);
+}
+
+.lang-option {
+  min-width: 34px;
+  min-height: 28px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: currentColor;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.68;
+  transition: opacity 0.25s var(--ease), background 0.25s var(--ease), color 0.25s var(--ease);
+}
+
+.lang-option.active {
+  background: var(--white);
+  color: var(--forest);
+  opacity: 1;
+}
+
+.header.scrolled .lang-option.active,
+.header.menu-open .lang-option.active {
+  background: var(--forest);
+  color: var(--white);
 }
 
 .nav-toggle {
@@ -930,6 +981,11 @@ p {
     visibility: hidden;
     transform: translateY(-16px);
     transition: opacity 0.35s var(--ease), transform 0.35s var(--ease), visibility 0.35s var(--ease);
+  }
+
+  .language-switch {
+    border-color: currentColor;
+    background: rgba(255, 253, 248, 0.08);
   }
 
   .nav-links.open {
