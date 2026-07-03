@@ -698,7 +698,7 @@ p {
 }
 
 .gallery-item::after {
-  content: 'View';
+  content: attr(data-view-label);
   position: absolute;
   right: 12px;
   bottom: 12px;

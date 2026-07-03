@@ -23,9 +23,11 @@ const translations = {
     hero: {
       label: 'Private Pool Villa in Ubud',
       subtitle: 'A two-bedroom retreat in Gianyar, Ubud for guests seeking nature, modern comfort, and the privacy of a calm Bali stay.',
+      scroll: 'Scroll',
     },
     facts: {
       bedrooms: 'Bedrooms',
+      private: 'Private',
       pool: 'Pool',
     },
     intro: {
@@ -51,12 +53,16 @@ const translations = {
     experience: {
       label: 'Experience',
       title: 'Designed to enjoy your time.',
+      poolTitle: 'Private Pool',
       pool: 'An intimate pool deck for morning swims, reading, or slow afternoons in the tropical garden.',
+      livingTitle: 'Indoor-Outdoor Living',
       living: 'Living, dining, and kitchen spaces connect through wide openings so light and air feel natural.',
+      balconyTitle: 'Forest Balcony',
       balcony: 'A quiet sitting area by the bedroom gives you a gentle pause before starting the day in Ubud.',
     },
     villa: {
       label: 'Accommodation',
+      title: 'Two Bedroom Pool Villa',
       description: 'Two air-conditioned bedrooms, a living room, dining area, fully equipped kitchen, and private outdoor space. The layout suits small families, couples, or guests planning a longer Ubud stay.',
       feature1: 'Master bedroom with king bed',
       feature2: 'Second bedroom with twin beds',
@@ -68,6 +74,22 @@ const translations = {
     amenities: {
       label: 'Amenities',
       title: 'Essential, tidy, and ready to stay.',
+      poolLabel: 'Pool',
+      pool: 'Private Pool',
+      kitchenLabel: 'Cook',
+      kitchen: 'Full Kitchen',
+      acLabel: 'Cool',
+      ac: 'Air Conditioning',
+      wifiLabel: 'Wi-Fi',
+      wifi: 'Free Wi-Fi',
+      parkingLabel: 'Park',
+      parking: 'Free Parking',
+      tvLabel: 'TV',
+      tv: 'Smart TV',
+      sunLabel: 'Sun',
+      sun: 'Sun Terrace',
+      cleanLabel: 'Clean',
+      clean: 'Housekeeping',
     },
     gallery: {
       label: 'Gallery',
@@ -77,6 +99,7 @@ const translations = {
     },
     location: {
       label: 'Location',
+      title: 'Gianyar, Ubud',
       description: 'Located in the Mas area of Gianyar, Nusari Villa is ideal for guests who want to stay close to Ubud while returning to a more private, natural setting.',
       maps: 'Open Google Maps',
     },
@@ -131,11 +154,13 @@ const translations = {
       gallery: 'Lihat Galeri',
     },
     hero: {
-      label: 'Private Pool Villa in Ubud',
+      label: 'Private Pool Villa di Ubud',
       subtitle: 'Retreat 2 kamar tidur di Gianyar, Ubud untuk tamu yang mencari suasana alam, ruang modern, dan ketenangan Bali yang terasa privat.',
+      scroll: 'Scroll',
     },
     facts: {
       bedrooms: 'Kamar Tidur',
+      private: 'Privat',
       pool: 'Pool',
     },
     intro: {
@@ -161,12 +186,16 @@ const translations = {
     experience: {
       label: 'Pengalaman',
       title: 'Dirancang untuk menikmati waktu.',
+      poolTitle: 'Private Pool',
       pool: 'Pool deck yang intim untuk berenang pagi, membaca, atau menikmati sore dengan suasana taman tropis.',
+      livingTitle: 'Living Indoor-Outdoor',
       living: 'Living, dining, dan dapur menyatu dengan bukaan besar agar cahaya dan udara terasa natural.',
+      balconyTitle: 'Balkon Hijau',
       balcony: 'Area duduk di kamar memberi momen tenang sebelum memulai hari di Ubud.',
     },
     villa: {
       label: 'Akomodasi',
+      title: 'Two Bedroom Pool Villa',
       description: 'Dua kamar tidur ber-AC, living room, dining area, dapur lengkap, dan area outdoor privat. Komposisinya nyaman untuk keluarga kecil, pasangan, atau tamu yang ingin tinggal lebih lama di Ubud.',
       feature1: 'Master bedroom dengan king bed',
       feature2: 'Kamar kedua dengan twin bed',
@@ -178,15 +207,32 @@ const translations = {
     amenities: {
       label: 'Fasilitas',
       title: 'Esensial, rapi, dan siap ditempati.',
+      poolLabel: 'Pool',
+      pool: 'Private Pool',
+      kitchenLabel: 'Dapur',
+      kitchen: 'Dapur Lengkap',
+      acLabel: 'Sejuk',
+      ac: 'Air Conditioning',
+      wifiLabel: 'Wi-Fi',
+      wifi: 'Wi-Fi Gratis',
+      parkingLabel: 'Parkir',
+      parking: 'Parkir Gratis',
+      tvLabel: 'TV',
+      tv: 'Smart TV',
+      sunLabel: 'Teras',
+      sun: 'Sun Terrace',
+      cleanLabel: 'Bersih',
+      clean: 'Housekeeping',
     },
     gallery: {
       label: 'Galeri',
       title: 'Sudut-sudut Nusari Villa',
       description: 'Foto asli villa: exterior, kamar, living area, pool deck, dan pemandangan sekitar.',
-      view: 'View',
+      view: 'Lihat',
     },
     location: {
       label: 'Lokasi',
+      title: 'Gianyar, Ubud',
       description: 'Berada di area Mas, Gianyar, Nusari Villa cocok untuk tamu yang ingin dekat dengan Ubud, namun tetap kembali ke suasana yang lebih privat dan natural.',
       maps: 'Buka Google Maps',
     },
@@ -362,6 +408,7 @@ function updateMeta() {
   document.documentElement.lang = currentLang;
   document.title = getTranslation('meta.title');
   document.querySelector('meta[name="description"]')?.setAttribute('content', getTranslation('meta.description'));
+  document.querySelector('meta[property="og:title"]')?.setAttribute('content', getTranslation('meta.title'));
   document.querySelector('meta[property="og:description"]')?.setAttribute('content', getTranslation('meta.ogDescription'));
 }
 
@@ -389,6 +436,7 @@ function applyTranslations() {
 
   document.querySelectorAll('.gallery-item').forEach((item, index) => {
     const alt = getAlt(photos[index]);
+    item.dataset.viewLabel = getTranslation('gallery.view');
     item.setAttribute('aria-label', `${getTranslation('gallery.view')}: ${alt}`);
     item.querySelector('img')?.setAttribute('alt', alt);
   });
@@ -414,6 +462,7 @@ if (galleryGrid) {
     const item = document.createElement('button');
     item.className = 'gallery-item';
     item.type = 'button';
+    item.dataset.viewLabel = getTranslation('gallery.view');
     item.setAttribute('aria-label', `${getTranslation('gallery.view')}: ${photo.alt.en}`);
     item.innerHTML = `<img src="${photo.src}" alt="${photo.alt.en}" loading="lazy" decoding="async">`;
     item.addEventListener('click', () => openLightbox(index));
