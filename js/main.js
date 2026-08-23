@@ -1,5 +1,5 @@
 const WHATSAPP_NUMBER = '6287780867880';
-const WHATSAPP_MESSAGE = 'Greetings, My name is ______, i would like to rent the Nusari Villa for _____ months';
+const WHATSAPP_MESSAGE = 'Halo! Nama saya ______, saya tertarik untuk menyewa Nusari Villa. Bisa bantu info ketersediaan dan harga?';
 
 const translations = {
   en: {
@@ -13,6 +13,7 @@ const translations = {
       villa: 'Villa',
       amenities: 'Amenities',
       gallery: 'Gallery',
+      pricing: 'Pricing',
       location: 'Location',
       reservation: 'Reservation',
     },
@@ -105,9 +106,14 @@ const translations = {
     },
     contact: {
       label: 'Reservation',
-      title: 'Ready to stay at Nusari Villa?',
-      description: 'Send your preferred dates and number of guests. Our team will help check availability, pricing, and any additional needs.',
-      managedBy: 'Managed by',
+      title: 'Ready to stay at Nusari Villa? 🌿',
+      description: 'Send your check-in date, check-out date, and number of guests. We will help check availability and confirm the best rate for you!',
+    },
+    pricing: {
+      label: 'Pricing',
+      title: 'How much does it cost?',
+      perMonth: '/month',
+      note: 'Estimated price is between 30-35 million, note that long-term stays will be cheaper compared to short-term.',
     },
     aria: {
       nav: 'Main navigation',
@@ -137,15 +143,16 @@ const translations = {
   },
   id: {
     meta: {
-      title: 'Nusari Villa Ubud | Private Pool Villa di Alam',
-      description: 'Nusari Villa Ubud adalah private pool villa 2 kamar tidur di Gianyar, Ubud. Retreat tenang dengan pemandangan tropis, ruang modern, dan akses mudah ke pusat budaya Bali.',
-      ogDescription: 'Villa 2 kamar tidur di Gianyar, Ubud dengan private pool, living terbuka, dan suasana alam tropis.',
+      title: 'Nusari Villa Ubud | Villa Private Pool di Alam Ubud',
+      description: 'Nusari Villa — villa 2 kamar dengan private pool di Mas, Ubud. Tempat yang pas buat staycation, liburan keluarga, atau work-from-villa yang santai dan mewah.',
+      ogDescription: 'Villa 2 kamar di Gianyar, Ubud. Ada private pool, dapur lengkap, dan suasana alam tropis yang bikin nagih.',
     },
     nav: {
       about: 'Tentang',
       villa: 'Villa',
       amenities: 'Fasilitas',
       gallery: 'Galeri',
+      pricing: 'Harga',
       location: 'Lokasi',
       reservation: 'Reservasi',
     },
@@ -155,7 +162,7 @@ const translations = {
     },
     hero: {
       label: 'Private Pool Villa di Ubud',
-      subtitle: 'Retreat 2 kamar tidur di Gianyar, Ubud untuk tamu yang mencari suasana alam, ruang modern, dan ketenangan Bali yang terasa privat.',
+      subtitle: 'Dua kamar tidur, kolam privat, dan suasana Bali yang tenang — semua dalam satu villa yang terasa seperti rumah sendiri.',
       scroll: 'Scroll',
     },
     facts: {
@@ -165,48 +172,48 @@ const translations = {
     },
     intro: {
       label: 'Tentang Villa',
-      title: 'Tempat beristirahat yang terasa dekat dengan alam.',
-      p1: 'Nusari Villa memadukan arsitektur modern minimalis dengan lanskap tropis khas Ubud. Dari pool deck, balkon, hingga living room, suasananya dibuat tenang dan lapang untuk staycation, perjalanan keluarga kecil, atau work-from-villa yang lebih pelan.',
-      p2: 'Lokasinya berada di Mas, desa budaya yang tetap dekat dengan atraksi Ubud, namun cukup tersembunyi untuk memberi rasa privat begitu Anda masuk ke area villa.',
+      title: 'Tempat yang bikin kamu nggak mau pulang.',
+      p1: 'Nusari Villa punya desain modern minimalis yang menyatu cantik sama alam tropis Ubud. Dari pool deck, balkon, sampai living room — semuanya terasa lapang dan bikin betah, entah buat staycation dadakan, liburan bareng keluarga, atau kerja remote sambil nikmatin angin sore.',
+      p2: 'Lokasinya di Mas, desa budaya yang mana-mana deket ke spot ikonik Ubud — tapi tetap cukup tersembunyi biar kamu bisa punya waktu sendiri.',
     },
     story: {
       1: {
-        title: 'Bangun dengan hijau tropis',
-        text: 'Jendela besar dan balkon mengarahkan pandangan ke pepohonan, taman, dan ritme desa Mas yang tenang.',
+        title: 'Pagi yang terasa beda',
+        text: 'Bangun dengan pemandangan hijau dari jendela lebar dan balkon — pohon, taman, dan ritme desa Mas yang tenang banget.',
       },
       2: {
-        title: 'Ruang privat untuk melambat',
-        text: 'Kolam renang, sun deck, dan living terbuka menjadi pusat pengalaman tanpa harus keluar dari villa.',
+        title: 'Villa-mu, aturanmu',
+        text: 'Kolam renang, sun deck, dan living terbuka jadi pusat hari-hari kamu. Nggak perlu kemana-mana kalau nggak mau.',
       },
       3: {
-        title: 'Dekat dengan Ubud',
-        text: 'Akses praktis menuju area budaya, restoran, dan destinasi keluarga, sambil tetap pulang ke suasana yang sunyi.',
+        title: 'Dekat, tapi tetap privat',
+        text: 'Ke pusat Ubud, warung enak, atau tempat wisata keluarga? Gampang. Tapi kamu selalu punya tempat tenang buat balik.',
       },
     },
     experience: {
       label: 'Pengalaman',
-      title: 'Dirancang untuk menikmati waktu.',
+      title: 'Setiap sudut dirancang buat dinikmati.',
       poolTitle: 'Private Pool',
-      pool: 'Pool deck yang intim untuk berenang pagi, membaca, atau menikmati sore dengan suasana taman tropis.',
+      pool: 'Berenang pagi, baca buku sore, atau cuma duduk santai di tepi kolam — pool deck ini jadi favorit semua tamu.',
       livingTitle: 'Living Indoor-Outdoor',
-      living: 'Living, dining, dan dapur menyatu dengan bukaan besar agar cahaya dan udara terasa natural.',
-      balconyTitle: 'Balkon Hijau',
-      balcony: 'Area duduk di kamar memberi momen tenang sebelum memulai hari di Ubud.',
+      living: 'Dapur, meja makan, dan ruang santai nyambung lewat bukaan lebar. Cahaya dan angin masuk natural — nggak ada sekat yang ganggu.',
+      balconyTitle: 'Balkon Tropis',
+      balcony: 'Spot favorit buat ngopi pagi atau sekedar tarik napas sebelum mulai hari. View hijaunya bikin kepala jernih.',
     },
     villa: {
       label: 'Akomodasi',
-      title: 'Two Bedroom Pool Villa',
-      description: 'Dua kamar tidur ber-AC, living room, dining area, dapur lengkap, dan area outdoor privat. Komposisinya nyaman untuk keluarga kecil, pasangan, atau tamu yang ingin tinggal lebih lama di Ubud.',
+      title: 'Villa 2 Kamar dengan Private Pool',
+      description: 'Dua kamar ber-AC, living room, dining area, dapur lengkap, dan area outdoor privat. Pas banget buat keluarga kecil, pasangan, atau siapa aja yang pengen staycation quality di Ubud.',
       feature1: 'Master bedroom dengan king bed',
       feature2: 'Kamar kedua dengan twin bed',
-      feature3: 'Dapur lengkap dan island bar',
-      feature4: 'Smart TV, Wi-Fi, dan parkir gratis',
+      feature3: 'Dapur lengkap + island bar',
+      feature4: 'Smart TV, Wi-Fi kencang, parkir gratis',
       feature5: 'Balkon dan taman tropis',
-      feature6: 'Housekeeping serta laundry service',
+      feature6: 'Housekeeping + laundry service',
     },
     amenities: {
       label: 'Fasilitas',
-      title: 'Esensial, rapi, dan siap ditempati.',
+      title: 'Semua yang kamu butuhkan, sudah ada.',
       poolLabel: 'Pool',
       pool: 'Private Pool',
       kitchenLabel: 'Dapur',
@@ -226,21 +233,26 @@ const translations = {
     },
     gallery: {
       label: 'Galeri',
-      title: 'Sudut-sudut Nusari Villa',
-      description: 'Foto asli villa: exterior, kamar, living area, pool deck, dan pemandangan sekitar.',
+      title: 'Intip Sudut-Sudut Nusari Villa',
+      description: 'Foto asli villa — eksterior, kamar, area living, pool deck, dan pemandangan sekitar. Nggak ada filter, ini aslinya.',
       view: 'Lihat',
     },
     location: {
       label: 'Lokasi',
-      title: 'Gianyar, Ubud',
-      description: 'Berada di area Mas, Gianyar, Nusari Villa cocok untuk tamu yang ingin dekat dengan Ubud, namun tetap kembali ke suasana yang lebih privat dan natural.',
+      title: 'Mas, Gianyar — Ubud',
+      description: 'Berada di desa Mas, area Gianyar — cuma beberapa menit dari pusat Ubud. Cukup dekat buat jalan-jalan, cukup tenang buat istirahat beneran.',
       maps: 'Buka Google Maps',
     },
     contact: {
       label: 'Reservasi',
-      title: 'Siap menginap di Nusari Villa?',
-      description: 'Kirim tanggal menginap dan jumlah tamu. Tim kami akan membantu cek ketersediaan, harga, dan kebutuhan tambahan Anda.',
-      managedBy: 'Managed by',
+      title: 'Mau menginap di Nusari Villa? 🌿',
+      description: 'Kirim tanggal check-in, check-out, dan jumlah tamu. Kami bantu cek ketersediaan dan kasih harga terbaik buat kamu!',
+    },
+    pricing: {
+      label: 'Harga',
+      title: 'Berapa biaya menginap?',
+      perMonth: '/bulan',
+      note: 'Estimasi Harga berada di antara 30-35 juta saja, makin lama sewanya, makin murah harganya.',
     },
     aria: {
       nav: 'Navigasi utama',
@@ -263,7 +275,7 @@ const translations = {
       balconyView: 'Pemandangan sawah dan langit dari balkon villa',
       pool: 'Kolam renang privat dengan sun lounger',
       living: 'Living room dan dining area terbuka Nusari Villa',
-      forestBalcony: 'Balkon kamar dengan pemandangan hutan',
+      forestBalcony: 'Balkon kamar dengan pemandangan tropis',
       masterBedroom: 'Kamar tidur utama Nusari Villa',
       twinBedroom: 'Kamar tidur twin bed Nusari Villa',
     },
@@ -369,13 +381,7 @@ const photos = [
       id: 'Pemandangan hijau dari kamar villa',
     },
   },
-  {
-    src: 'assets/images/99d7ef78-0700-414e-800a-87a8f376a79b.webp',
-    alt: {
-      en: 'Tropical forest path near the villa',
-      id: 'Jalur hutan tropis di sekitar villa',
-    },
-  },
+
 ];
 
 const galleryGrid = document.getElementById('gallery-grid');
