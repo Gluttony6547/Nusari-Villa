@@ -1,11 +1,11 @@
 const WHATSAPP_NUMBER = '6287780867880';
-const WHATSAPP_MESSAGE = 'Halo! Nama saya ______, saya tertarik untuk menyewa Nusari Villa. Bisa bantu info ketersediaan dan harga?';
+const WHATSAPP_MESSAGE = 'Halo! Nama saya ______, saya tertarik untuk menyewa Ubud Bali Vila Nuansa Alami. Bisa bantu info ketersediaan dan harga?';
 
 const translations = {
   en: {
     meta: {
-      title: 'Nusari Villa Ubud | Private Pool Villa in Nature',
-      description: "Nusari Villa Ubud is a two-bedroom private pool villa in Gianyar, Ubud. A quiet retreat with tropical views, modern spaces, and easy access to Bali's cultural heart.",
+      title: 'Ubud Bali Vila Nuansa Alami | Private Pool Villa in Nature',
+      description: "Ubud Bali Vila Nuansa Alami is a two-bedroom private pool villa in Gianyar, Ubud. A quiet retreat with tropical views, modern spaces, and easy access to Bali's cultural heart.",
       ogDescription: 'A two-bedroom villa in Gianyar, Ubud with a private pool, open living space, and tropical surroundings.',
     },
     nav: {
@@ -34,7 +34,7 @@ const translations = {
     intro: {
       label: 'About the Villa',
       title: 'A place to rest close to nature.',
-      p1: "Nusari Villa blends modern minimalist architecture with Ubud's tropical landscape. From the pool deck, balcony, and living room, every space is made to feel calm and open for a staycation, a small family trip, or a slower work-from-villa rhythm.",
+      p1: "Ubud Bali Vila Nuansa Alami blends modern minimalist architecture with Ubud's tropical landscape. From the pool deck, balcony, and living room, every space is made to feel calm and open for a staycation, a small family trip, or a slower work-from-villa rhythm.",
       p2: "Located in Mas, a cultural village near Ubud's attractions, the villa remains tucked away enough to feel private from the moment you arrive.",
     },
     story: {
@@ -94,19 +94,19 @@ const translations = {
     },
     gallery: {
       label: 'Gallery',
-      title: 'Corners of Nusari Villa',
+      title: 'Corners of Ubud Bali Vila Nuansa Alami',
       description: 'Real villa photos: exterior, bedrooms, living area, pool deck, and the surrounding landscape.',
       view: 'View',
     },
     location: {
       label: 'Location',
       title: 'Gianyar, Ubud',
-      description: 'Located in the Mas area of Gianyar, Nusari Villa is ideal for guests who want to stay close to Ubud while returning to a more private, natural setting.',
+      description: 'Located in the Mas area of Gianyar, Ubud Bali Vila Nuansa Alami is ideal for guests who want to stay close to Ubud while returning to a more private, natural setting.',
       maps: 'Open Google Maps',
     },
     contact: {
       label: 'Reservation',
-      title: 'Ready to stay at Nusari Villa? 🌿',
+      title: 'Ready to stay at Ubud Bali Vila Nuansa Alami? 🌿',
       description: 'Send your check-in date, check-out date, and number of guests. We will help check availability and confirm the best rate for you!',
     },
     pricing: {
@@ -123,28 +123,28 @@ const translations = {
       highlights: 'Villa highlights',
       scrollAbout: 'Scroll to about villa',
       atmosphere: 'Villa atmosphere',
-      amenities: 'Nusari Villa amenities',
-      map: 'Nusari Villa location on Google Maps',
-      galleryDialog: 'Nusari Villa photo gallery',
+      amenities: 'Ubud Bali Vila Nuansa Alami amenities',
+      map: 'Ubud Bali Vila Nuansa Alami location on Google Maps',
+      galleryDialog: 'Ubud Bali Vila Nuansa Alami photo gallery',
       closeGallery: 'Close gallery',
       prevPhoto: 'Previous photo',
       nextPhoto: 'Next photo',
     },
     alt: {
-      hero: 'Nusari Villa private pool with tropical garden',
-      staircase: 'Nusari Villa staircase with arched window',
+      hero: 'Ubud Bali Vila Nuansa Alami private pool with tropical garden',
+      staircase: 'Ubud Bali Vila Nuansa Alami staircase with arched window',
       balconyView: 'Rice field and sky view from the villa balcony',
       pool: 'Private pool with sun loungers',
-      living: 'Nusari Villa open living room and dining area',
+      living: 'Ubud Bali Vila Nuansa Alami open living room and dining area',
       forestBalcony: 'Bedroom balcony with forest view',
-      masterBedroom: 'Nusari Villa master bedroom',
-      twinBedroom: 'Nusari Villa twin bedroom',
+      masterBedroom: 'Ubud Bali Vila Nuansa Alami master bedroom',
+      twinBedroom: 'Ubud Bali Vila Nuansa Alami twin bedroom',
     },
   },
   id: {
     meta: {
-      title: 'Nusari Villa Ubud | Villa Private Pool di Alam Ubud',
-      description: 'Nusari Villa — villa 2 kamar dengan private pool di Mas, Ubud. Tempat yang pas buat staycation, liburan keluarga, atau work-from-villa yang santai dan mewah.',
+      title: 'Ubud Bali Vila Nuansa Alami | Villa Private Pool di Alam Ubud',
+      description: 'Ubud Bali Vila Nuansa Alami — villa 2 kamar dengan private pool di Mas, Ubud. Tempat yang pas buat staycation, liburan keluarga, atau work-from-villa yang santai dan mewah.',
       ogDescription: 'Villa 2 kamar di Gianyar, Ubud. Ada private pool, dapur lengkap, dan suasana alam tropis yang bikin nagih.',
     },
     nav: {
@@ -173,7 +173,7 @@ const translations = {
     intro: {
       label: 'Tentang Villa',
       title: 'Tempat yang bikin kamu nggak mau pulang.',
-      p1: 'Nusari Villa punya desain modern minimalis yang menyatu cantik sama alam tropis Ubud. Dari pool deck, balkon, sampai living room — semuanya terasa lapang dan bikin betah, entah buat staycation dadakan, liburan bareng keluarga, atau kerja remote sambil nikmatin angin sore.',
+      p1: 'Ubud Bali Vila Nuansa Alami punya desain modern minimalis yang menyatu cantik sama alam tropis Ubud. Dari pool deck, balkon, sampai living room — semuanya terasa lapang dan bikin betah, entah buat staycation dadakan, liburan bareng keluarga, atau kerja remote sambil nikmatin angin sore.',
       p2: 'Lokasinya di Mas, desa budaya yang mana-mana deket ke spot ikonik Ubud — tapi tetap cukup tersembunyi biar kamu bisa punya waktu sendiri.',
     },
     story: {
@@ -233,7 +233,7 @@ const translations = {
     },
     gallery: {
       label: 'Galeri',
-      title: 'Intip Sudut-Sudut Nusari Villa',
+      title: 'Intip Sudut-Sudut Ubud Bali Vila Nuansa Alami',
       description: 'Foto asli villa — eksterior, kamar, area living, pool deck, dan pemandangan sekitar. Nggak ada filter, ini aslinya.',
       view: 'Lihat',
     },
@@ -245,7 +245,7 @@ const translations = {
     },
     contact: {
       label: 'Reservasi',
-      title: 'Mau menginap di Nusari Villa? 🌿',
+      title: 'Mau menginap di Ubud Bali Vila Nuansa Alami? 🌿',
       description: 'Kirim tanggal check-in, check-out, dan jumlah tamu. Kami bantu cek ketersediaan dan kasih harga terbaik buat kamu!',
     },
     pricing: {
@@ -262,22 +262,22 @@ const translations = {
       highlights: 'Highlight villa',
       scrollAbout: 'Scroll ke tentang villa',
       atmosphere: 'Suasana villa',
-      amenities: 'Daftar fasilitas Nusari Villa',
-      map: 'Lokasi Nusari Villa di Google Maps',
-      galleryDialog: 'Galeri foto Nusari Villa',
+      amenities: 'Daftar fasilitas Ubud Bali Vila Nuansa Alami',
+      map: 'Lokasi Ubud Bali Vila Nuansa Alami di Google Maps',
+      galleryDialog: 'Galeri foto Ubud Bali Vila Nuansa Alami',
       closeGallery: 'Tutup galeri',
       prevPhoto: 'Foto sebelumnya',
       nextPhoto: 'Foto berikutnya',
     },
     alt: {
-      hero: 'Kolam renang privat Nusari Villa dengan taman tropis',
-      staircase: 'Tangga interior Nusari Villa dengan jendela lengkung',
+      hero: 'Kolam renang privat Ubud Bali Vila Nuansa Alami dengan taman tropis',
+      staircase: 'Tangga interior Ubud Bali Vila Nuansa Alami dengan jendela lengkung',
       balconyView: 'Pemandangan sawah dan langit dari balkon villa',
       pool: 'Kolam renang privat dengan sun lounger',
-      living: 'Living room dan dining area terbuka Nusari Villa',
+      living: 'Living room dan dining area terbuka Ubud Bali Vila Nuansa Alami',
       forestBalcony: 'Balkon kamar dengan pemandangan tropis',
-      masterBedroom: 'Kamar tidur utama Nusari Villa',
-      twinBedroom: 'Kamar tidur twin bed Nusari Villa',
+      masterBedroom: 'Kamar tidur utama Ubud Bali Vila Nuansa Alami',
+      twinBedroom: 'Kamar tidur twin bed Ubud Bali Vila Nuansa Alami',
     },
   },
 };
@@ -286,15 +286,15 @@ const photos = [
   {
     src: 'assets/images/BIP-MJ-1035.webp',
     alt: {
-      en: 'Nusari Villa private pool with tropical garden',
-      id: 'Kolam renang privat Nusari Villa dengan taman tropis',
+      en: 'Ubud Bali Vila Nuansa Alami private pool with tropical garden',
+      id: 'Kolam renang privat Ubud Bali Vila Nuansa Alami dengan taman tropis',
     },
   },
   {
     src: 'assets/images/BIP-MJ-1033.webp',
     alt: {
-      en: 'Nusari Villa pool deck from the living area',
-      id: 'Pool deck Nusari Villa dari area living',
+      en: 'Ubud Bali Vila Nuansa Alami pool deck from the living area',
+      id: 'Pool deck Ubud Bali Vila Nuansa Alami dari area living',
     },
   },
   {
@@ -307,8 +307,8 @@ const photos = [
   {
     src: 'assets/images/BIP-MJ-0806.webp',
     alt: {
-      en: 'Nusari Villa exterior in Mas Ubud',
-      id: 'Eksterior Nusari Villa di Mas Ubud',
+      en: 'Ubud Bali Vila Nuansa Alami exterior in Mas Ubud',
+      id: 'Eksterior Ubud Bali Vila Nuansa Alami di Mas Ubud',
     },
   },
   {
@@ -363,8 +363,8 @@ const photos = [
   {
     src: 'assets/images/BIP-MJ-0955.webp',
     alt: {
-      en: 'Nusari Villa modern bathroom',
-      id: 'Kamar mandi modern Nusari Villa',
+      en: 'Ubud Bali Vila Nuansa Alami modern bathroom',
+      id: 'Kamar mandi modern Ubud Bali Vila Nuansa Alami',
     },
   },
   {
