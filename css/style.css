@@ -1,4 +1,4 @@
-/* Nusari Villa — nature, aesthetic, minimalist */
+/* Ubud Bali Natura Villa — nature, aesthetic, minimalist */
 
 :root {
   --paper: #f7f4ed;
@@ -1212,4 +1212,117 @@ p {
   color: var(--muted);
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Booking platforms */
+.booking {
+  background: var(--white);
+}
+
+.booking .section-header {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+.booking .section-header p {
+  max-width: 520px;
+  margin: 14px auto 0;
+  color: var(--muted);
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.booking-card {
+  display: grid;
+  min-height: 172px;
+  align-content: space-between;
+  gap: 18px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  transition: transform 0.35s var(--ease), border-color 0.35s var(--ease), background 0.35s var(--ease), box-shadow 0.35s var(--ease);
+}
+
+a.booking-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(38, 56, 41, 0.36);
+  background: var(--paper-soft);
+  box-shadow: 0 14px 32px rgba(38, 56, 41, 0.1);
+}
+
+.booking-card-disabled {
+  cursor: default;
+  opacity: 0.62;
+}
+
+.booking-icon {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  border: 1px solid rgba(38, 56, 41, 0.17);
+  border-radius: 50%;
+  color: var(--forest);
+}
+
+.booking-icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.booking-icon-letter {
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.booking-copy {
+  display: grid;
+  gap: 5px;
+}
+
+.booking-copy strong {
+  color: var(--forest);
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.booking-copy small,
+.booking-status {
+  color: var(--sage);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.booking-arrow,
+.booking-status {
+  align-self: end;
+  justify-self: end;
+}
+
+.booking-arrow {
+  color: var(--forest);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 980px) {
+  .booking-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .booking-grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -1,11 +1,11 @@
 const WHATSAPP_NUMBER = '6287780867880';
-const WHATSAPP_MESSAGE = 'Halo! Nama saya ______, saya tertarik untuk menyewa Ubud Bali Vila Nuansa Alami. Bisa bantu info ketersediaan dan harga?';
+const WHATSAPP_MESSAGE = 'Greetings, My name is ______, i would like to rent the Ubud Bali Natura Villa for _____ months';
 
 const translations = {
   en: {
     meta: {
-      title: 'Ubud Bali Vila Nuansa Alami | Private Pool Villa in Nature',
-      description: "Ubud Bali Vila Nuansa Alami is a two-bedroom private pool villa in Gianyar, Ubud. A quiet retreat with tropical views, modern spaces, and easy access to Bali's cultural heart.",
+      title: 'Ubud Bali Natura Villa | Private Pool Villa in Nature',
+      description: "Ubud Bali Natura Villa is a two-bedroom private pool villa in Gianyar, Ubud. A quiet retreat with tropical views, modern spaces, and easy access to Bali's cultural heart.",
       ogDescription: 'A two-bedroom villa in Gianyar, Ubud with a private pool, open living space, and tropical surroundings.',
     },
     nav: {
@@ -14,6 +14,7 @@ const translations = {
       amenities: 'Amenities',
       gallery: 'Gallery',
       pricing: 'Pricing',
+      booking: 'Booking',
       location: 'Location',
       reservation: 'Reservation',
     },
@@ -34,7 +35,7 @@ const translations = {
     intro: {
       label: 'About the Villa',
       title: 'A place to rest close to nature.',
-      p1: "Ubud Bali Vila Nuansa Alami blends modern minimalist architecture with Ubud's tropical landscape. From the pool deck, balcony, and living room, every space is made to feel calm and open for a staycation, a small family trip, or a slower work-from-villa rhythm.",
+      p1: "Ubud Bali Natura Villa blends modern minimalist architecture with Ubud's tropical landscape. From the pool deck, balcony, and living room, every space is made to feel calm and open for a staycation, a small family trip, or a slower work-from-villa rhythm.",
       p2: "Located in Mas, a cultural village near Ubud's attractions, the villa remains tucked away enough to feel private from the moment you arrive.",
     },
     story: {
@@ -94,19 +95,19 @@ const translations = {
     },
     gallery: {
       label: 'Gallery',
-      title: 'Corners of Ubud Bali Vila Nuansa Alami',
+      title: 'Corners of Ubud Bali Natura Villa',
       description: 'Real villa photos: exterior, bedrooms, living area, pool deck, and the surrounding landscape.',
       view: 'View',
     },
     location: {
       label: 'Location',
       title: 'Gianyar, Ubud',
-      description: 'Located in the Mas area of Gianyar, Ubud Bali Vila Nuansa Alami is ideal for guests who want to stay close to Ubud while returning to a more private, natural setting.',
+      description: 'Located in the Mas area of Gianyar, Ubud Bali Natura Villa is ideal for guests who want to stay close to Ubud while returning to a more private, natural setting.',
       maps: 'Open Google Maps',
     },
     contact: {
       label: 'Reservation',
-      title: 'Ready to stay at Ubud Bali Vila Nuansa Alami? 🌿',
+      title: 'Ready to stay at Ubud Bali Natura Villa? 🌿',
       description: 'Send your check-in date, check-out date, and number of guests. We will help check availability and confirm the best rate for you!',
     },
     pricing: {
@@ -114,6 +115,13 @@ const translations = {
       title: 'How much does it cost?',
       perMonth: '/month',
       note: 'Estimated price is between 30-35 million, note that long-term stays will be cheaper compared to short-term.',
+    },
+    booking: {
+      label: 'Book your stay',
+      title: 'Choose your preferred booking platform.',
+      description: 'Compare availability and make a reservation through one of our booking partners.',
+      open: 'Open marketplace',
+      soon: 'Coming soon',
     },
     aria: {
       nav: 'Main navigation',
@@ -123,28 +131,28 @@ const translations = {
       highlights: 'Villa highlights',
       scrollAbout: 'Scroll to about villa',
       atmosphere: 'Villa atmosphere',
-      amenities: 'Ubud Bali Vila Nuansa Alami amenities',
-      map: 'Ubud Bali Vila Nuansa Alami location on Google Maps',
-      galleryDialog: 'Ubud Bali Vila Nuansa Alami photo gallery',
+      amenities: 'Ubud Bali Natura Villa amenities',
+      map: 'Ubud Bali Natura Villa location on Google Maps',
+      galleryDialog: 'Ubud Bali Natura Villa photo gallery',
       closeGallery: 'Close gallery',
       prevPhoto: 'Previous photo',
       nextPhoto: 'Next photo',
     },
     alt: {
-      hero: 'Ubud Bali Vila Nuansa Alami private pool with tropical garden',
-      staircase: 'Ubud Bali Vila Nuansa Alami staircase with arched window',
+      hero: 'Ubud Bali Natura Villa private pool with tropical garden',
+      staircase: 'Ubud Bali Natura Villa staircase with arched window',
       balconyView: 'Rice field and sky view from the villa balcony',
       pool: 'Private pool with sun loungers',
-      living: 'Ubud Bali Vila Nuansa Alami open living room and dining area',
+      living: 'Ubud Bali Natura Villa open living room and dining area',
       forestBalcony: 'Bedroom balcony with forest view',
-      masterBedroom: 'Ubud Bali Vila Nuansa Alami master bedroom',
-      twinBedroom: 'Ubud Bali Vila Nuansa Alami twin bedroom',
+      masterBedroom: 'Ubud Bali Natura Villa master bedroom',
+      twinBedroom: 'Ubud Bali Natura Villa twin bedroom',
     },
   },
   id: {
     meta: {
-      title: 'Ubud Bali Vila Nuansa Alami | Villa Private Pool di Alam Ubud',
-      description: 'Ubud Bali Vila Nuansa Alami — villa 2 kamar dengan private pool di Mas, Ubud. Tempat yang pas buat staycation, liburan keluarga, atau work-from-villa yang santai dan mewah.',
+      title: 'Ubud Bali Natura Villa | Villa Private Pool di Alam Ubud',
+      description: 'Ubud Bali Natura Villa — villa 2 kamar dengan private pool di Mas, Ubud. Tempat yang pas buat staycation, liburan keluarga, atau work-from-villa yang santai dan mewah.',
       ogDescription: 'Villa 2 kamar di Gianyar, Ubud. Ada private pool, dapur lengkap, dan suasana alam tropis yang bikin nagih.',
     },
     nav: {
@@ -153,6 +161,7 @@ const translations = {
       amenities: 'Fasilitas',
       gallery: 'Galeri',
       pricing: 'Harga',
+      booking: 'Booking',
       location: 'Lokasi',
       reservation: 'Reservasi',
     },
@@ -173,7 +182,7 @@ const translations = {
     intro: {
       label: 'Tentang Villa',
       title: 'Tempat yang bikin kamu nggak mau pulang.',
-      p1: 'Ubud Bali Vila Nuansa Alami punya desain modern minimalis yang menyatu cantik sama alam tropis Ubud. Dari pool deck, balkon, sampai living room — semuanya terasa lapang dan bikin betah, entah buat staycation dadakan, liburan bareng keluarga, atau kerja remote sambil nikmatin angin sore.',
+      p1: 'Ubud Bali Natura Villa punya desain modern minimalis yang menyatu cantik sama alam tropis Ubud. Dari pool deck, balkon, sampai living room — semuanya terasa lapang dan bikin betah, entah buat staycation dadakan, liburan bareng keluarga, atau kerja remote sambil nikmatin angin sore.',
       p2: 'Lokasinya di Mas, desa budaya yang mana-mana deket ke spot ikonik Ubud — tapi tetap cukup tersembunyi biar kamu bisa punya waktu sendiri.',
     },
     story: {
@@ -233,7 +242,7 @@ const translations = {
     },
     gallery: {
       label: 'Galeri',
-      title: 'Intip Sudut-Sudut Ubud Bali Vila Nuansa Alami',
+      title: 'Intip Sudut-Sudut Ubud Bali Natura Villa',
       description: 'Foto asli villa — eksterior, kamar, area living, pool deck, dan pemandangan sekitar. Nggak ada filter, ini aslinya.',
       view: 'Lihat',
     },
@@ -245,7 +254,7 @@ const translations = {
     },
     contact: {
       label: 'Reservasi',
-      title: 'Mau menginap di Ubud Bali Vila Nuansa Alami? 🌿',
+      title: 'Mau menginap di Ubud Bali Natura Villa? 🌿',
       description: 'Kirim tanggal check-in, check-out, dan jumlah tamu. Kami bantu cek ketersediaan dan kasih harga terbaik buat kamu!',
     },
     pricing: {
@@ -253,6 +262,13 @@ const translations = {
       title: 'Berapa biaya menginap?',
       perMonth: '/bulan',
       note: 'Estimasi Harga berada di antara 30-35 juta saja, makin lama sewanya, makin murah harganya.',
+    },
+    booking: {
+      label: 'Pesan penginapan',
+      title: 'Pilih platform booking yang kamu suka.',
+      description: 'Cek ketersediaan dan lakukan reservasi lewat partner booking kami.',
+      open: 'Buka marketplace',
+      soon: 'Segera hadir',
     },
     aria: {
       nav: 'Navigasi utama',
@@ -262,22 +278,22 @@ const translations = {
       highlights: 'Highlight villa',
       scrollAbout: 'Scroll ke tentang villa',
       atmosphere: 'Suasana villa',
-      amenities: 'Daftar fasilitas Ubud Bali Vila Nuansa Alami',
-      map: 'Lokasi Ubud Bali Vila Nuansa Alami di Google Maps',
-      galleryDialog: 'Galeri foto Ubud Bali Vila Nuansa Alami',
+      amenities: 'Daftar fasilitas Ubud Bali Natura Villa',
+      map: 'Lokasi Ubud Bali Natura Villa di Google Maps',
+      galleryDialog: 'Galeri foto Ubud Bali Natura Villa',
       closeGallery: 'Tutup galeri',
       prevPhoto: 'Foto sebelumnya',
       nextPhoto: 'Foto berikutnya',
     },
     alt: {
-      hero: 'Kolam renang privat Ubud Bali Vila Nuansa Alami dengan taman tropis',
-      staircase: 'Tangga interior Ubud Bali Vila Nuansa Alami dengan jendela lengkung',
+      hero: 'Kolam renang privat Ubud Bali Natura Villa dengan taman tropis',
+      staircase: 'Tangga interior Ubud Bali Natura Villa dengan jendela lengkung',
       balconyView: 'Pemandangan sawah dan langit dari balkon villa',
       pool: 'Kolam renang privat dengan sun lounger',
-      living: 'Living room dan dining area terbuka Ubud Bali Vila Nuansa Alami',
+      living: 'Living room dan dining area terbuka Ubud Bali Natura Villa',
       forestBalcony: 'Balkon kamar dengan pemandangan tropis',
-      masterBedroom: 'Kamar tidur utama Ubud Bali Vila Nuansa Alami',
-      twinBedroom: 'Kamar tidur twin bed Ubud Bali Vila Nuansa Alami',
+      masterBedroom: 'Kamar tidur utama Ubud Bali Natura Villa',
+      twinBedroom: 'Kamar tidur twin bed Ubud Bali Natura Villa',
     },
   },
 };
@@ -286,15 +302,15 @@ const photos = [
   {
     src: 'assets/images/BIP-MJ-1035.webp',
     alt: {
-      en: 'Ubud Bali Vila Nuansa Alami private pool with tropical garden',
-      id: 'Kolam renang privat Ubud Bali Vila Nuansa Alami dengan taman tropis',
+      en: 'Ubud Bali Natura Villa private pool with tropical garden',
+      id: 'Kolam renang privat Ubud Bali Natura Villa dengan taman tropis',
     },
   },
   {
     src: 'assets/images/BIP-MJ-1033.webp',
     alt: {
-      en: 'Ubud Bali Vila Nuansa Alami pool deck from the living area',
-      id: 'Pool deck Ubud Bali Vila Nuansa Alami dari area living',
+      en: 'Ubud Bali Natura Villa pool deck from the living area',
+      id: 'Pool deck Ubud Bali Natura Villa dari area living',
     },
   },
   {
@@ -307,8 +323,8 @@ const photos = [
   {
     src: 'assets/images/BIP-MJ-0806.webp',
     alt: {
-      en: 'Ubud Bali Vila Nuansa Alami exterior in Mas Ubud',
-      id: 'Eksterior Ubud Bali Vila Nuansa Alami di Mas Ubud',
+      en: 'Ubud Bali Natura Villa exterior in Mas Ubud',
+      id: 'Eksterior Ubud Bali Natura Villa di Mas Ubud',
     },
   },
   {
@@ -363,8 +379,8 @@ const photos = [
   {
     src: 'assets/images/BIP-MJ-0955.webp',
     alt: {
-      en: 'Ubud Bali Vila Nuansa Alami modern bathroom',
-      id: 'Kamar mandi modern Ubud Bali Vila Nuansa Alami',
+      en: 'Ubud Bali Natura Villa modern bathroom',
+      id: 'Kamar mandi modern Ubud Bali Natura Villa',
     },
   },
   {
